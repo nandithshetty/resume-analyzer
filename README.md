@@ -26,14 +26,32 @@ Smart AI Resume Analyzer is an intelligent tool that allows users to upload thei
 - **SQLite** for local data storage
 - **Lottie animations** for smooth UX
 
+---
+
 ## 🙌 Acknowledgements
 - Built using Streamlit
 - Inspired by best practices in resume screening and ATS systems
 - Icons and animations from LottieFiles
 
-## Install Requirements
-pip install -r requirements.txt
+---
 
-## Run the App
-streamlit run app.py
+## ⚙️ Setup Instructions
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/nandithshetty/resume-analyzer.git
+cd resume-analyzer
+```
+2. **(Recommended) Create a virtual environment**
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+3. **Install Requirements**
+```
+pip install -r requirements.txt
+```
+4. **Run the App**
+```
+$streamlit run app.py
 
