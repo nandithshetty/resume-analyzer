@@ -34,7 +34,7 @@ import json
 import streamlit as st
 import datetime
 
-# Set page config at the very beginning
+print("Set page config at the very beginning")
 st.set_page_config(
     page_title="Resume Analyzer",
     page_icon="🚀",
