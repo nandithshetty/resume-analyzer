@@ -45,7 +45,7 @@ st.set_page_config(
 class ResumeApp:
     def __init__(self):
 
-        print("Initialize navigation state")
+        # Initialize navigation state
         if 'page' not in st.session_state:
             st.session_state.page = 'home'
 
